@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planet Survey</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+    <div>
+<!--Introductuctury-->
+        <center>
+            <h1>What is your favorite Planet?</h1>
+        </center>
+        <center>
+            <h3>Here are a few questions regarding the planets in our solar system! Enjoy answering them.</h3>
+        </center>
+    </div>
+    <!-- The form uses the get method because it does not require any sensitive information. -->
+    <form class="responsive-form" action="assignment.html" method="get">
+        <center>
+    <!--email and name input fields-->
+            <label for="name">Enter your name:</label><br>
+            <input type="text" id="name" name="name" min="3" required><br><br>
+
+            <label for="email">Enter your Email:</label><br>
+            <input type="email" id="email" name="email" min="3" required><br><br>
+    <!--select input of planets fields-->
+
+            <label for="fav_plan">What is your favorite planet?</label><br>
+            <select name="planets" id="fav_plan">
+                <option value="mercury">Mercury</option>
+                <option value="venus">Venus</option>
+                <option value="earth">Earth</option>
+                <option value="mars">Mars</option>
+                <option value="jupiter">Jupiter</option>
+                <option value="saturn">Saturn</option>
+                <option value="uranus">Uranus</option>
+                <option value="neptune">Neptune</option>
+            </select><br><br>
+             <!--checkbox field for planets-->
+            <label for="live_choice"><b>If you could live on any of these gas giants, whice ones would you choose?</b></label><br>
+
+            <input type="checkbox" id="jupiter_check" name="jupiter">
+            <label for="jupiter_check">Jupiter</label><br>
+
+            <input type="checkbox" id="saturn_check" name="saturn">
+            <label for="saturn_check">Saturn</label><br>
+
+            <input type="checkbox" id="uranus_check" name="uranus">
+            <label for="uranus_check">Uranus</label><br>
+
+            <input type="checkbox" id="neptune_check" name="neptune">
+            <label for="neptune_check">Neptune</label><br>
+            <label for="planatary_thoughts"><b>If there was a planet in the solar system that was adruptly removed, what would it be and why?</b></label><br>
+            <textarea id="planatary_thoughts" name="planatary_thoughts" rows="4" cols="50"></textarea><br>
+            <input type="submit" value="Submit">
+        </center>
+        <center><video width="300" height="300" controls>
+<!--The video is a video of jupiter because this form is about asking for your favorite planet.-->
+            <source src="jupiter.mp4" type="video/mp4">
+            your browser does not support the video.
+          </video></center>
+    </form>
+</body>
+
+</html>

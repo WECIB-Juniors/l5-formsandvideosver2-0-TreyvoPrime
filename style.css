@@ -1,0 +1,31 @@
+ body {
+    background-color: rgb(236, 145, 145);
+ }
+ #name{
+  border-radius: 50px;
+  width: 150px;
+  height: 30px;
+  color: white;
+  background-color: rgb(53, 53, 58);
+ }
+ #email {
+  border-radius: 150px;
+  width: 150px;
+  height: 30px;
+  color: white;
+  background-color: rgb(53, 53, 58);
+ }
+ #planatary_thoughts {
+   border-radius: 10px;
+   width: 300px;
+   height: 120px;
+   color: white;
+   background-color: rgb(53, 53, 58);
+ }
+ h1 {
+  color:rgb(46, 31, 247)
+ }
+ #fav_plan {
+  color: white;
+  background-color: rgb(53, 53, 58);
+ }
